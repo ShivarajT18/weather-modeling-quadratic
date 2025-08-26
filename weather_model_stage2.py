@@ -1,4 +1,4 @@
-# weather_model_stage2_auto.py
+# weather_model_stage2.py
 import math
 
 print("Weather Model - Quadratic Solution (Keyboard Input Automated)")
@@ -14,4 +14,5 @@ else:
     root1 = (-b + math.sqrt(discriminant)) / (2*a)
     root2 = (-b - math.sqrt(discriminant)) / (2*a)
     print(f"Roots: {root1}, {root2}")
+
 

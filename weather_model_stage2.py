@@ -1,8 +1,10 @@
-# weather_model_stage2.py
+# weather_model_stage2_auto.py
 import math
 
-print("Weather Model - Quadratic Solution (Keyboard Input)")
-a, b, c = map(float, input("Enter a, b, c separated by spaces: ").split())
+print("Weather Model - Quadratic Solution (Keyboard Input Automated)")
+
+# Default coefficients
+a, b, c = 1, -3, 2  
 
 discriminant = b**2 - 4*a*c
 

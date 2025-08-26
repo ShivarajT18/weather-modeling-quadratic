@@ -2,9 +2,7 @@
 import math
 
 print("Weather Model - Quadratic Solution (Keyboard Input)")
-a = float(input("Enter coefficient a: "))
-b = float(input("Enter coefficient b: "))
-c = float(input("Enter coefficient c: "))
+a, b, c = map(float, input("Enter a, b, c separated by spaces: ").split())
 
 discriminant = b**2 - 4*a*c
 
@@ -14,3 +12,4 @@ else:
     root1 = (-b + math.sqrt(discriminant)) / (2*a)
     root2 = (-b - math.sqrt(discriminant)) / (2*a)
     print(f"Roots: {root1}, {root2}")
+
